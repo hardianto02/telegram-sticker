@@ -1,4 +1,5 @@
-const { getSticker } = require('./index.js');
+const Sticker = require("./lib/util");
+
 /**
  * follow igwe saya hardianto02_
  * @param {String} categoryName nama sticker nya apa?
