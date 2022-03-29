@@ -22,9 +22,13 @@ build();
 ```
 # example
 see [example](https://github.com/hardianto-cpu/telegram-sticker/blob/master/example.js)
+
 # follow me
 [github](https://github.com/hardianto-cpu/)
+
 [instagram](https://www.instagram.com/hardianto02_/)
+
 # contact me
 [email](mailto: antojago5@gmail.com)
+
 [whatsapp](https://wa.me/62895325697662)
