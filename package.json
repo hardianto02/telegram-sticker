@@ -1,0 +1,25 @@
+{
+  "name": "telegram-sticker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "hardianto",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "wrapper hd sticker from telegram use telegram api"
+  },
+  "description": "",
+  "devDependencies": {
+    "eslint": "^8.12.0"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "node-fetch": "^3.2.3"
+  }
+}
