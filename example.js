@@ -1,3 +1,2 @@
-import { getSticker } from "./src/index.js";
-
-getSticker("cat").then(console.log);
+const {getSticker} = require('./src');
+getSticker('patrick').then(console.log);

@@ -1,6 +1,6 @@
-import fetch from "node-fetch";
-import cheerio from "cheerio";
-export class Sticker {
+const fetch = require('node-fetch');
+const cheerio = require('cheerio');
+module.exports = class Sticker {
     async parseStickerByNameCategory(categoryName) {
         return new Promise(async (resolve, reject) => {
             const page = Math.floor(Math.random() * 20) + 1;

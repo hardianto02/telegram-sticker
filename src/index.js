@@ -1,4 +1,4 @@
-import {Sticker} from "./lib/util.js";
+const { getSticker } = require('./index.js');
 /**
  * follow igwe saya hardianto02_
  * @param {String} categoryName nama sticker nya apa?
@@ -6,10 +6,10 @@ import {Sticker} from "./lib/util.js";
  */
 export const getSticker = async (categoryName) => {
     return new Promise(async (resolve, reject) => {
-    const sticker = new Sticker();
-    const result = await sticker.parseStickerByNameCategory("cat");
-    const result2 = await sticker.getSticker(result);
-    const result3 = await sticker.parseUrlDownload(result2);
-    resolve(result3);
+        const sticker = new Sticker();
+        const result = await sticker.parseStickerByNameCategory("cat");
+        const result2 = await sticker.getSticker(result);
+        const result3 = await sticker.parseUrlDownload(result2);
+        resolve(result3);
     })
 }

@@ -2,7 +2,6 @@
   "name": "telegram-sticker",
   "version": "1.0.0",
   "main": "src/index.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
@@ -20,6 +19,6 @@
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.10",
-    "node-fetch": "^3.2.3"
+    "node-fetch": "^2.0.0"
   }
 }
