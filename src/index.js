@@ -4,7 +4,7 @@ const { getSticker } = require('./index.js');
  * @param {String} categoryName nama sticker nya apa?
  * @returns {Promise<{name: string, title: string, result: Array<{link_download: string}}>}
  */
-export const getSticker = async (categoryName) => {
+const getSticker = async (categoryName) => {
     return new Promise(async (resolve, reject) => {
         const sticker = new Sticker();
         const result = await sticker.parseStickerByNameCategory("cat");
@@ -13,3 +13,4 @@ export const getSticker = async (categoryName) => {
         resolve(result3);
     })
 }
+module.exports = { getSticker };
